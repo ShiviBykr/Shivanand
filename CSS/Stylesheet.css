@@ -1,0 +1,140 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 5.625rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h1,h2{
+    color: #66BFBF;
+}
+h3,a{
+    color: #11999E;
+}
+
+h2,h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #e0ebe8;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: #EAF6F6;
+    padding: 100px 0 30px 0;
+}
+
+.bottom-container{
+    padding-top: 40px;
+    background-color: #66BFBF;
+    padding-bottom: 20px;
+}
+
+/* .container{
+    background-color: #f8eeee;
+} */
+
+.intro{
+    width: 35%;
+    margin: 50px auto 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:150px;
+    bottom: 300px;
+}
+
+.font-class{
+    font-weight: normal;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+}
+
+.skill-img1{
+    border-radius: 100%;
+    float:left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.skill-img2{
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 100px auto 100px;
+}
+
+.btn{
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background-color: #45b29a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn:hover{
+    background-color: #1b7f69;
+}
+
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    padding: 50px 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.copyright{
+    color: #EAF6F6;
+    padding: 20px auto 20px;
+    font-size: small;
+}
+
+.message{
+    width: 60%;
+    margin: 40px auto 80px;
+}
